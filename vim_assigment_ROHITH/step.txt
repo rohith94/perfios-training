@@ -1,0 +1,10 @@
+step 1			:%s/\s/','/g  (replace space with ',' )
+
+step 2			:%s/'/<space>  (replace first occurence of ' by space)
+
+step 3			:%s/$/');   (append ') at end of each line)
+
+step 4			:%s/^/foo: /  (append insert into statement)
+
+
+-Rohith_M
